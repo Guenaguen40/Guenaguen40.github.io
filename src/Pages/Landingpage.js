@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   featureSection: {
     padding: theme.spacing(4),
     backgroundColor: theme.palette.grey[200],
-    height: '50vh',
+    height: '70vh',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -131,7 +131,7 @@ export default function LandingPage() {
       
       <footer className={classes.footer}>
         <Typography variant="body2"  style={{color: 'white', fontWeight: 'bold',}} align="center">
-          Copyright © {new Date().getFullYear()} Task Management App
+          Copyright © {new Date().getFullYear()} task.it Management Application
         </Typography>
       </footer>
     </div>
