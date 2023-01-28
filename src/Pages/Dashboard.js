@@ -30,8 +30,8 @@ export default function Dashboard() {
   const calendarRef = useRef(null);
   const downloadPDF = () => {
     html2canvas(calendarRef.current).then(canvas => {
-        let pdf = new jsPDF();
-        pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 211, 298);
+      let pdf = new jsPDF('landscape');
+        pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 300, 250);
         pdf.save("download.pdf");
     });
   }
