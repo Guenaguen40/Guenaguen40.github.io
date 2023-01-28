@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: 'auto',
     backgroundColor: theme.palette.grey[800],
     height: '30vh',
+    
   },
 }));
 
@@ -49,7 +50,7 @@ export default function LandingPage() {
             <Card className={classes.featureCard}>
               <CardContent className={classes.featureCardContent}>
               <img
-              src="https://icongr.am/jam/calendar-alt-f.svg?size=128&color=currentColor"
+              src=" https://icongr.am/jam/activity.svg?size=128&color=currentColor"
               alt="calendar" style={{ right: 30 }}
             />
                 <Typography variant="h6">Task creation</Typography>
@@ -63,8 +64,8 @@ export default function LandingPage() {
             <Card className={classes.featureCard}>
               <CardContent className={classes.featureCardContent}>
               <img
-              src="https://icongr.am/jam/alarm-clock-f.svg?size=128&color=currentColor"
-              alt="calendar" style={{ right: 30 }}
+              src="https://icongr.am/jam/calendar-alt-f.svg?size=128&color=currentColor"
+              alt="task" style={{ right: 30 }}
             />
                 <Typography variant="h6">Calendar view of tasks</Typography>
                 <Typography>
@@ -77,7 +78,7 @@ export default function LandingPage() {
             <Card className={classes.featureCard}>
               <CardContent className={classes.featureCardContent}>
               <img
-              src="https://icongr.am/jam/activity.svg?size=128&color=currentColor"
+              src="https://icongr.am/jam/alarm-clock-f.svg?size=128&color=currentColor"
               alt="calendar" style={{ right: 30 }}
             />
                 <Typography variant="h6">Calender drag and drop</Typography>

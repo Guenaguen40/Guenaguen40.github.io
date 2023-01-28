@@ -7,10 +7,14 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../logoWhite.svg';
-import css from './Style.css'
+import css from './Style.css';
+import { useNavigate } from 'react-router-dom'
+
 
 
 export default function ButtonAppBar() {
+  const navigate = useNavigate()
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -34,8 +38,8 @@ export default function ButtonAppBar() {
           </Typography>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
-          <Button color="inherit">Login</Button>
-          <Button color="inherit">Register</Button>
+          <Button color="inherit" onClick={() => navigate('/login')}>Login</Button>
+          <Button color="inherit" onClick={() => navigate('/register')}>Register</Button>
         </Toolbar>
       </AppBar>
     </Box>
