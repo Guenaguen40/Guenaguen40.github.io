@@ -52,9 +52,9 @@ export default function LandingPage() {
               src="https://icongr.am/jam/calendar-alt-f.svg?size=128&color=currentColor"
               alt="calendar" style={{ right: 30 }}
             />
-                <Typography variant="h6">Feature 1</Typography>
+                <Typography variant="h6">Task creation</Typography>
                 <Typography>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Task creation with title, description, and due date.
                 </Typography>
               </CardContent>
             </Card>
@@ -66,10 +66,9 @@ export default function LandingPage() {
               src="https://icongr.am/jam/alarm-clock-f.svg?size=128&color=currentColor"
               alt="calendar" style={{ right: 30 }}
             />
-                <Typography variant="h6">Feature 2</Typography>
+                <Typography variant="h6">Calendar view of tasks</Typography>
                 <Typography>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid
-				  incididunt ut labore et dolore magna aliqua.
+                Calendar view of tasks monthly, weekly or dayly.
                 </Typography>
               </CardContent>
             </Card>
@@ -81,10 +80,9 @@ export default function LandingPage() {
               src="https://icongr.am/jam/activity.svg?size=128&color=currentColor"
               alt="calendar" style={{ right: 30 }}
             />
-                <Typography variant="h6">Feature 2</Typography>
+                <Typography variant="h6">Calender drag and drop</Typography>
                 <Typography>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid
-				  incididunt ut labore et dolore magna aliqua.
+                  Drag and drop tasks into your calender view anytime.
                 </Typography>
               </CardContent>
             </Card>

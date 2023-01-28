@@ -70,18 +70,27 @@
   
   @keyframes slideshow {
     0% {
-      background-image: url(./bk.jpg);
-    }
-    50% {
       background-image: url(./bk2.jpg);
     }
-    75% {
+    50% {
       background-image: url(bk3.jpg);
     }
     100% {
       background-image: url(./bk4.jpg);
     }
   }
+
+
+
+    .row {
+      display: flex;
+      align-items: center;
+      align-content: space-between;
+    }
+    .Button {
+     width: 180px;
+    }
+ 
   
   
   

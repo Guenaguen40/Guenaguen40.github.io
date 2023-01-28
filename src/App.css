@@ -21,7 +21,7 @@
   #external-events {
     position: absolute;
     z-index: 2;
-    top: 124px;
+    top: 144px;
     left: 30px;
     right: 100px;
     bottom: 100px;
@@ -44,11 +44,12 @@
     z-index: 1;
     margin-left: 400px;
     width: 900px;
+    margin-top: 40px;
   }
   
   #calendar {
     max-width: 900px;
-    margin: 20px auto;
+    margin: 40px auto;
   }
   #Taskheader{
     display: flex;
