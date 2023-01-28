@@ -59,7 +59,8 @@ export default class Calendar extends React.Component {
       event_id: ""
     };
 
-    
+    this.handleClickOpen = this.handleClickOpen.bind(this);
+    this.handleClose = this.handleClose.bind(this);
     this.handleSelect = this.handleSelect.bind(this);
     this.openForm = this.openForm.bind(this);
     this.itemfunc = this.itemfunc.bind(this);
@@ -190,7 +191,6 @@ export default class Calendar extends React.Component {
       calendarEvents: this.state.calendarEvents.concat(newEvent)
     });
 
-   
 
     return;
   };
